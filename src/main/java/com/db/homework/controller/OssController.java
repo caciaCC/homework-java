@@ -32,8 +32,6 @@ public class OssController {
 //
 //// 云账号AccessKey有所有API访问权限，建议遵循阿里云安全最佳实践，创建并使用RAM子账号进行API访问或日常运维，请登录 https://ram.console.aliyun.com 创建。
 //
-//        String accessId = "LTAI4FyYihUvcJEEuoRPTDYe"; // 请填写您的AccessKeyId。
-//        String accessKey = "UcXmUKQY2gzRXtQYkiyVpj3eAgRc4c"; // 请填写您的AccessKeySecret。
 //        String endpoint = "oss-cn-beijing.aliyuncs.com"; // 请填写您的 endpoint。
 //        String bucket = "db-homework"; // 请填写您的 bucketname 。
 //        String host = "https://" + bucket + "." + endpoint; // host的格式为 bucketname.endpoint
@@ -85,8 +83,6 @@ public class OssController {
        // Endpoint以杭州为例，其它Region请按实际情况填写。
        String endpoint = "oss-cn-beijing.aliyuncs.com";
 // 云账号AccessKey有所有API访问权限，建议遵循阿里云安全最佳实践，创建并使用RAM子账号进行API访问或日常运维，请登录 https://ram.console.aliyun.com 创建。
-       String accessKeyId = "LTAI4FyYihUvcJEEuoRPTDYe";
-       String accessKeySecret = "UcXmUKQY2gzRXtQYkiyVpj3eAgRc4c";
        String bucketName = "db-homework";
 // 创建OSSClient实例。
 //       OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
